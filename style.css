@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: normal 18px arial;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: url(imgs/imagem-fundo.jpeg);
+    background-position: 50% 50%;
+}
+
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-login {
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 2%;
+    height: 53%;
+    text-align: left;
+    backdrop-filter: blur(5px);
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-text{
+    padding: 13px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    background: transparent;
+    border: solid 1px white;
+    border-radius: 20px;
+    color: white;
+}
+::-webkit-input-placeholder {
+    color: white;
+    
+ }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+#esqueceu-senha {
+    margin-left: 20vh;
+}
+p{
+    font-size: 13px;
+}
+
+
+.btn-login {
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#nao-tenho-conta {
+    text-align: center;
+    margin: 20px;
+    font-weight: 550;
+    font-size: 15px;
+}
